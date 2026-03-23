@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="description" content="Óptica Trinidad Talavera de la Reina — Gafas graduadas, gafas de sol, lentillas y exámenes visuales. C. Trinidad, 4. Tel: 925 81 25 43."/>
+<meta name="keywords" content="óptica Talavera de la Reina, gafas graduadas, optometrista Toledo, lentes de contacto, examen visual, gafas de sol, óptica Trinidad"/>
+<meta name="robots" content="index,follow"/>
+<meta property="og:title" content="Óptica Trinidad | Talavera de la Reina"/>
+<meta property="og:description" content="Óptica de referencia en Talavera de la Reina. Marcas exclusivas, exámenes visuales y trato personalizado."/>
+<meta property="og:type" content="business.business"/>
+<meta property="og:locale" content="es_ES"/>
+<title>Óptica Trinidad | Talavera de la Reina</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Optician","name":"Óptica Trinidad","url":"https://www.opticatrinidadtalavera.com","telephone":"+34925812543","email":"info@opticatrinidadtalavera.com","address":{"@type":"PostalAddress","streetAddress":"C. Trinidad, 4","addressLocality":"Talavera de la Reina","postalCode":"45600","addressRegion":"Toledo","addressCountry":"ES"},"openingHours":["Mo-Fr 09:30-13:30","Mo-Fr 16:30-20:00","Sa 10:00-14:00"],"priceRange":"€€"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --white:#ffffff;
+  --black:#0a0a0a;
+  --off:#f8f7f5;
+  --light-gray:#f0eeeb;
+  --mid-gray:#c8c4be;
+  --text:#1a1a1a;
+  --text-light:#888580;
+  --border:#e5e2de;
+  --accent:#1a1a1a;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Jost',sans-serif;background:var(--white);color:var(--text);font-size:14px;line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.skip-link{position:absolute;top:-40px;left:0;background:var(--black);color:#fff;padding:8px 16px;font-size:12px;z-index:9999;transition:top .2s}
+.skip-link:focus{top:0}
+button{font-family:inherit}
+img{display:block;width:100%;height:100%;object-fit:cover}
+
+/* ─── TOPBAR ─── */
+.topbar{background:var(--black);color:rgba(255,255,255,.6);font-size:11px;letter-spacing:.08em;padding:9px 0;text-align:center}
+.topbar-inner{max-width:1400px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
+.topbar a{color:inherit;transition:color .2s}.topbar a:hover{color:#fff}
+.topbar-right{display:flex;gap:20px;align-items:center}.topbar-sep{opacity:.25}
+
+/* ─── HEADER ─── */
+header{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:900;transition:box-shadow .3s}
+header.scrolled{box-shadow:0 1px 16px rgba(0,0,0,.07)}
+.header-inner{max-width:1400px;margin:0 auto;padding:0 32px;height:62px;display:flex;align-items:center;justify-content:space-between}
+.logo{cursor:pointer;font-family:'Cantata One',serif;font-size:18px;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:#333333;line-height:1;background:none;border:none;padding:0}
+.logo:hover{color:#555}
+
+/* NAV */
+.main-nav{display:flex;align-items:center;list-style:none;gap:0}
+.nav-item{position:relative}
+.nav-btn{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:400;color:var(--text);background:none;border:none;padding:6px 16px;cursor:pointer;transition:color .2s;height:62px;display:flex;align-items:center;gap:4px;white-space:nowrap}
+.nav-btn:hover{color:var(--text-light)}
+.nav-btn svg{width:8px;height:8px;transition:transform .2s}
+.nav-item:hover .nav-btn svg{transform:rotate(180deg)}
+.nav-cta{background:var(--black);color:var(--white) !important;height:auto !important;padding:9px 20px !important;margin-left:8px;font-size:11px !important;letter-spacing:.14em !important;transition:background .2s !important}
+.nav-cta:hover{background:#333 !important}
+.nav-cta svg{display:none !important}
+
+/* CITA BAND */
+.cita-band{background:var(--off);border-bottom:1px solid var(--border);text-align:center;padding:11px;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--text)}
+.cita-band a{display:inline-flex;align-items:center;gap:10px;transition:color .2s}.cita-band a:hover{color:var(--text-light)}
+
+/* MEGA MENU */
+.mega-wrap{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(4px);background:var(--white);border:1px solid var(--border);border-top:1px solid var(--black);box-shadow:0 16px 48px rgba(0,0,0,.09);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;min-width:800px;z-index:800}
+.nav-item:hover .mega-wrap{opacity:1;pointer-events:all;transform:translateX(-50%) translateY(0)}
+.mega-grid{display:grid;grid-template-columns:200px 1fr 1fr 1fr 200px}
+.mega-col-first{padding:32px 24px;border-right:1px solid var(--border)}
+.mega-col-first a{display:block;font-size:12.5px;font-weight:500;letter-spacing:.04em;color:var(--text);padding:6px 0;background:none;border:none;cursor:pointer;text-align:left;width:100%;transition:color .15s}
+.mega-col-first a:hover{color:var(--text-light)}
+.mega-col{padding:32px 20px;border-right:1px solid var(--border)}
+.mega-col-title{font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-light);margin-bottom:16px;font-weight:500}
+.mega-list{list-style:none;display:flex;flex-direction:column;gap:1px}
+.mega-list a{font-size:12.5px;color:var(--text);padding:5px 0;display:block;background:none;border:none;cursor:pointer;text-align:left;width:100%;transition:color .15s;font-family:inherit}
+.mega-list a:hover{color:var(--text-light)}
+.mega-promo{overflow:hidden;display:flex;flex-direction:column;cursor:pointer}
+.mega-promo-img{flex:1;background:var(--light-gray);display:flex;align-items:center;justify-content:center;min-height:150px;overflow:hidden;font-size:72px;transition:transform .4s}
+.mega-promo:hover .mega-promo-img{transform:scale(1.04)}
+.mega-promo-text{padding:12px 14px;background:var(--off)}
+.mega-promo-label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-light)}
+.mega-promo-offer{font-size:13px;font-weight:500;color:var(--black);margin-top:2px}
+.mega-footer{border-top:1px solid var(--border);padding:10px 24px;display:flex;gap:24px;background:var(--off)}
+.mega-footer a{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-light);display:inline-flex;align-items:center;gap:6px;background:none;border:none;cursor:pointer;font-family:inherit;transition:color .2s}
+.mega-footer a:hover{color:var(--text)}
+/* simple dropdown */
+.simple-drop{position:absolute;top:100%;left:0;background:var(--white);border:1px solid var(--border);border-top:1px solid var(--black);box-shadow:0 12px 36px rgba(0,0,0,.08);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;transform:translateY(4px);min-width:210px;z-index:800;padding:8px 0}
+.nav-item:hover .simple-drop{opacity:1;pointer-events:all;transform:none}
+.simple-drop a{display:block;padding:9px 20px;font-size:12.5px;color:var(--text);background:none;border:none;cursor:pointer;font-family:inherit;width:100%;text-align:left;transition:color .15s}
+.simple-drop a:hover{color:var(--text-light)}
+
+/* HAMBURGER */
+.hamburger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:4px}
+.hamburger span{display:block;width:22px;height:1px;background:var(--black);transition:all .3s}
+
+/* MOBILE OVERLAY */
+.mob-overlay{display:none;position:fixed;inset:0;background:var(--white);z-index:950;overflow-y:auto;flex-direction:column}
+.mob-overlay.open{display:flex}
+.mob-head{display:flex;justify-content:space-between;align-items:center;padding:18px 24px;border-bottom:1px solid var(--border)}
+.mob-close{background:none;border:none;font-size:20px;cursor:pointer}
+.mob-body{padding:0}
+.mob-sec{border-bottom:1px solid var(--border)}
+.mob-sec-title{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-light);padding:14px 24px 8px}
+.mob-link{display:block;padding:10px 24px;font-size:14px;color:var(--text);background:none;border:none;cursor:pointer;font-family:inherit;text-align:left;width:100%;transition:color .15s}
+.mob-link:hover{color:var(--text-light)}
+.mob-cta{background:var(--black);color:var(--white);display:block;text-align:center;padding:14px;margin:20px 24px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;border:none;font-family:inherit;width:calc(100% - 48px)}
+
+/* ─── PAGES ─── */
+.page{display:none;animation:fadeUp .35s ease}
+.page.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.container{max-width:1400px;margin:0 auto;padding:0 32px}
+.sec{padding:80px 0}
+.sec-off{background:var(--off)}
+.sec-black{background:var(--black);color:var(--white)}
+
+/* ─── TYPE ─── */
+.eyebrow{font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--text-light);display:block;margin-bottom:14px}
+.eyebrow-w{color:rgba(255,255,255,.5)}
+.h1-serif{font-family:'Playfair Display',serif;font-size:clamp(42px,6vw,80px);font-weight:400;line-height:1;letter-spacing:-.02em;color:var(--black)}
+.h2-serif{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,52px);font-weight:400;line-height:1.05;letter-spacing:-.01em;color:var(--black)}
+.h2-serif em{font-style:italic}
+.h2-serif-w{color:var(--white)}
+.body-text{font-size:14px;color:var(--text-light);line-height:1.85;max-width:520px}
+.body-text-w{color:rgba(255,255,255,.55)}
+
+/* ─── BTNS ─── */
+.btn{display:inline-block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:12px 28px;cursor:pointer;border:none;font-family:inherit;transition:all .2s;text-align:center}
+.btn-black{background:var(--black);color:var(--white)}.btn-black:hover{background:#333}
+.btn-white{background:var(--white);color:var(--black)}.btn-white:hover{background:var(--off)}
+.btn-outline{border:1px solid var(--black);background:transparent;color:var(--black)}.btn-outline:hover{background:var(--black);color:var(--white)}
+.btn-outline-w{border:1px solid rgba(255,255,255,.35);background:transparent;color:rgba(255,255,255,.8)}.btn-outline-w:hover{border-color:var(--white);color:var(--white)}
+
+/* ─── SECTION HEADER ─── */
+.sec-head{margin-bottom:52px}
+.sec-head-flex{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;margin-bottom:52px}
+
+
+/* ── MARQUEE H1 — estilo Óptica Toscana ── */
+.hero-marquee-wrap{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  overflow:hidden;
+  pointer-events:none;
+  z-index:4;
+  line-height:1;
+  /* overflow visible hacia arriba para que el texto salga por el borde inferior */
+}
+.hero-marquee-track{
+  display:flex;
+  width:max-content;
+  animation:marquee-scroll 22s linear infinite;
+  will-change:transform;
+}
+@keyframes marquee-scroll{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
+}
+.hero-marquee-item{
+  font-family:'Cantata One',serif;
+  font-size:clamp(64px,9.5vw,140px);
+  font-weight:400;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.95);
+  white-space:nowrap;
+  padding:0 56px;
+  line-height:1;
+  display:block;
+  /* bottom half cut off like Toscana — marquee slightly below fold */
+  transform:translateY(22%);
+}
+.hero-marquee-sep{
+  color:rgba(255,255,255,.3);
+  margin:0 4px;
+}
+/* H1 hidden visually but present for SEO screen readers */
+.hero-h1-seo{
+  position:absolute !important;
+  width:1px !important;
+  height:1px !important;
+  padding:0 !important;
+  margin:-1px !important;
+  overflow:hidden !important;
+  clip:rect(0,0,0,0) !important;
+  white-space:nowrap !important;
+  border:0 !important;
+}
+/* tagline — "Tu visión, otra forma de mirar" */
+.hero-tagline{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(36px,5vw,68px);
+  font-weight:400;
+  color:rgba(255,255,255,.88);
+  line-height:1.05;
+  letter-spacing:-.015em;
+  margin-bottom:18px;
+}
+.hero-tagline em{
+  font-style:normal;
+  color:rgba(255,255,255,.35);
+}
+/* hero left: reserve space so tagline doesn't overlap marquee */
+.hero-left{padding-bottom:140px !important}
+/* hero section overflow hidden so giant text clips at bottom */
+.hero{overflow:hidden !important}
+
+/* ── SEO H1 hero ── */
+.hero-h1-seo{
+  font-family:'Cantata One',serif;
+  font-size:clamp(22px,3.2vw,44px);
+  font-weight:400;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.92);
+  line-height:1.15;
+  margin-bottom:16px;
+}
+.hero-h1-sep{color:rgba(255,255,255,.35);font-size:.85em}
+.hero-tagline{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(36px,5vw,68px);
+  font-weight:400;
+  font-style:italic;
+  color:rgba(255,255,255,.82);
+  line-height:1.05;
+  letter-spacing:-.01em;
+  margin-bottom:16px;
+}
+.hero-tagline em{font-style:normal;color:rgba(255,255,255,.45)}
+/* Ensure h2/h3 use semantic tags via CSS - prod/srv/team names styled as headings */
+.prod-name,.srv-name,.team-name,.salud-name,.blog-title,.val-name,.cat-name{display:block}
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:88vh;position:relative}
+.hero-left{background:var(--black);display:flex;flex-direction:column;justify-content:flex-end;padding:60px 56px;position:relative;overflow:hidden}
+.hero-bg-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:'Playfair Display',serif;font-size:clamp(140px,18vw,240px);font-weight:400;font-style:italic;color:rgba(255,255,255,.04);white-space:nowrap;pointer-events:none;line-height:1;letter-spacing:-.03em}
+.hero-left-content{position:relative;z-index:1}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(44px,5.5vw,78px);font-weight:400;line-height:1;letter-spacing:-.02em;color:var(--white)}
+.hero-title em{font-style:italic;color:rgba(255,255,255,.55)}
+.hero-subtitle{margin-top:20px;font-size:14.5px;color:rgba(255,255,255,.45);line-height:1.85;max-width:360px}
+.hero-btns{margin-top:36px;display:flex;gap:12px;flex-wrap:wrap}
+.hero-right{background:var(--off);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.hero-right-img{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:var(--off);transition:transform .6s;overflow:hidden}
+.hero-right:hover .hero-right-img{transform:scale(1.02)}
+.hero-right-caption{position:absolute;bottom:28px;left:28px;background:var(--white);padding:12px 18px}
+.hero-caption-label{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-light)}
+.hero-caption-value{font-size:13px;font-weight:500;color:var(--black);margin-top:2px}
+
+/* ─── ANNOUNCE ─── */
+.announce{background:var(--black);color:rgba(255,255,255,.65);text-align:center;padding:13px;font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+
+/* ─── INFO STRIP ─── */
+.strip{border-bottom:1px solid var(--border);padding:18px 0}
+.strip-inner{max-width:1400px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-around;flex-wrap:wrap;gap:12px}
+.strip-item{display:flex;align-items:center;gap:10px;font-size:11.5px;letter-spacing:.04em;color:var(--text-light)}
+.strip-item strong{color:var(--text);font-weight:500}
+
+/* ─── CATEGORY GRID ─── */
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.cat-card{position:relative;overflow:hidden;cursor:pointer;background:var(--light-gray);aspect-ratio:3/4}
+.cat-img{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:96px;transition:transform .6s cubic-bezier(.25,.46,.45,.94);background:var(--light-gray)}
+.cat-card:hover .cat-img{transform:scale(1.05)}
+.cat-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72) 0%,rgba(0,0,0,.1) 55%,transparent 100%)}
+.cat-info{position:absolute;bottom:0;left:0;right:0;padding:28px 24px}
+.cat-tag{font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:6px}
+.cat-name{font-family:'Playfair Display',serif;font-size:22px;font-weight:400;color:var(--white);line-height:1.15}
+.cat-link{margin-top:10px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);display:flex;align-items:center;gap:6px;transition:color .2s,gap .2s}
+.cat-card:hover .cat-link{color:var(--white);gap:10px}
+
+/* ─── PRODUCT GRID ─── */
+.prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border)}
+.prod-card{background:var(--white);cursor:pointer;overflow:hidden}
+.prod-img-wrap{aspect-ratio:3/4;background:var(--light-gray);overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.prod-emoji{font-size:80px;transition:transform .55s cubic-bezier(.25,.46,.45,.94)}
+.prod-card:hover .prod-emoji{transform:scale(1.06)}
+.prod-badge{position:absolute;top:0;left:0;background:var(--black);color:var(--white);font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px}
+.prod-badge.new{background:var(--black)}
+.prod-body{padding:16px 18px 22px}
+.prod-brand{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-light);margin-bottom:5px}
+.prod-name{font-family:'Playfair Display',serif;font-size:17px;font-weight:400;color:var(--black);margin-bottom:6px;line-height:1.25}
+.prod-desc{font-size:12.5px;color:var(--text-light);line-height:1.6;margin-bottom:12px}
+.prod-dots{display:flex;gap:5px;margin-bottom:12px}
+.dot{width:12px;height:12px;border-radius:50%;border:1px solid rgba(0,0,0,.12);cursor:pointer}
+.prod-cta{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text);display:inline-flex;align-items:center;gap:6px;background:none;border:none;cursor:pointer;font-family:inherit;transition:gap .2s,color .2s;padding:0}
+.prod-cta::after{content:'→'}
+.prod-cta:hover{gap:10px;color:var(--text-light)}
+
+/* ─── FILTER TABS ─── */
+.filter-row{display:flex;gap:0;border-bottom:1px solid var(--border);margin-bottom:40px;overflow-x:auto}
+.ftab{font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:12px 20px;background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;font-family:inherit;color:var(--text-light);white-space:nowrap;transition:color .2s}
+.ftab.on,.ftab:hover{color:var(--black)}
+.ftab.on{border-bottom-color:var(--black)}
+
+/* ─── EDITORIAL SPLIT ─── */
+.edit-split{display:grid;grid-template-columns:1fr 1fr}
+.edit-img{background:var(--light-gray);min-height:520px;display:flex;align-items:center;justify-content:center;font-size:120px;overflow:hidden}
+.edit-img-inner{transition:transform .6s}
+.edit-split:hover .edit-img-inner{transform:scale(1.03)}
+.edit-content{padding:72px 64px;display:flex;flex-direction:column;justify-content:center}
+.edit-content-r{padding:72px 64px;display:flex;flex-direction:column;justify-content:center;background:var(--black)}
+.edit-lead{margin-top:18px;font-size:14px;color:var(--text-light);line-height:1.9;max-width:460px}
+.edit-lead-w{color:rgba(255,255,255,.5)}
+.edit-feats{margin-top:32px;display:flex;flex-direction:column;gap:16px}
+.efeat{display:flex;gap:16px;align-items:flex-start;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.efeat:last-child{border-bottom:none;padding-bottom:0}
+.efeat-num{font-family:'Playfair Display',serif;font-size:28px;font-weight:400;font-style:italic;color:var(--mid-gray);line-height:1;flex-shrink:0;width:32px}
+.efeat-title{font-size:13px;font-weight:500;color:var(--black);margin-bottom:3px;letter-spacing:.03em}
+.efeat-desc{font-size:12.5px;color:var(--text-light);line-height:1.65}
+.efeat-num-w{color:rgba(255,255,255,.2)}
+.efeat-title-w{color:var(--white)}
+.efeat-desc-w{color:rgba(255,255,255,.45)}
+.efeat-w{border-bottom-color:rgba(255,255,255,.1) !important}
+
+/* ─── TEAM ─── */
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.team-card{background:var(--white);padding:40px 36px;text-align:center;transition:background .2s}
+.team-card:hover{background:var(--off)}
+.team-photo{width:120px;height:120px;border-radius:50%;background:var(--light-gray);margin:0 auto 22px;display:flex;align-items:center;justify-content:center;font-size:52px;overflow:hidden;border:1px solid var(--border)}
+.team-name{font-family:'Playfair Display',serif;font-size:19px;font-weight:400;color:var(--black);margin-bottom:5px}
+.team-role{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-light)}
+.team-bio{margin-top:14px;font-size:12.5px;color:var(--text-light);line-height:1.75}
+
+/* ─── TESTIMONIALS ─── */
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.test-card{background:var(--white);padding:36px;transition:background .2s}
+.test-card:hover{background:var(--off)}
+.stars{color:var(--black);font-size:11px;letter-spacing:2px;margin-bottom:14px}
+.test-quote{font-family:'Playfair Display',serif;font-size:16px;font-style:italic;color:var(--black);line-height:1.75;margin-bottom:18px}
+.test-author{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-light)}
+
+/* ─── SERVICES ─── */
+.srv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.srv-card{background:var(--white);padding:40px 32px;position:relative;overflow:hidden;transition:background .25s}
+.srv-card:hover{background:var(--off)}
+.srv-num{font-family:'Playfair Display',serif;font-size:52px;font-weight:400;font-style:italic;color:var(--light-gray);position:absolute;top:16px;right:20px;line-height:1}
+.srv-icon{font-size:28px;margin-bottom:18px;display:block}
+.srv-name{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;color:var(--black);margin-bottom:10px}
+.srv-desc{font-size:12.5px;color:var(--text-light);line-height:1.75}
+
+/* ─── BRANDS ─── */
+.brands-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--border)}
+.brand-cell{background:var(--white);padding:24px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--mid-gray);transition:all .2s;cursor:default;min-height:80px}
+.brand-cell:hover{background:var(--black);color:var(--white)}
+
+/* ─── SALUD VISUAL ─── */
+.salud-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border)}
+.salud-card{background:var(--white);padding:40px;transition:background .2s}
+.salud-card:hover{background:var(--off)}
+.salud-icon{font-size:28px;margin-bottom:16px;display:block}
+.salud-name{font-family:'Playfair Display',serif;font-size:20px;color:var(--black);margin-bottom:12px}
+.salud-desc{font-size:13px;color:var(--text-light);line-height:1.8}
+
+/* ─── BLOG ─── */
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.blog-card{background:var(--white);overflow:hidden;cursor:pointer;transition:background .2s}
+.blog-card:hover{background:var(--off)}
+.blog-img{aspect-ratio:16/9;background:var(--light-gray);display:flex;align-items:center;justify-content:center;font-size:56px;overflow:hidden}
+.blog-img-inner{transition:transform .5s}
+.blog-card:hover .blog-img-inner{transform:scale(1.04)}
+.blog-body{padding:22px 24px 26px}
+.blog-cat{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-light);margin-bottom:10px}
+.blog-title{font-family:'Playfair Display',serif;font-size:18px;font-weight:400;color:var(--black);line-height:1.35;margin-bottom:10px}
+.blog-excerpt{font-size:12.5px;color:var(--text-light);line-height:1.7;margin-bottom:14px}
+.blog-meta{font-size:10.5px;color:var(--mid-gray);display:flex;gap:12px}
+
+/* ─── CONTACT ─── */
+.contact-split{display:grid;grid-template-columns:1fr 1fr}
+.contact-left{padding:72px 64px;background:var(--off)}
+.contact-right{background:var(--black)}
+.contact-items{margin-top:36px;display:flex;flex-direction:column;gap:28px}
+.c-item{display:flex;gap:16px;align-items:flex-start}
+.c-dot{width:6px;height:6px;background:var(--black);border-radius:50%;margin-top:7px;flex-shrink:0}
+.c-label{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-light);margin-bottom:4px}
+.c-value{font-family:'Playfair Display',serif;font-size:17px;color:var(--black);line-height:1.4}
+.c-value a{transition:color .2s}.c-value a:hover{color:var(--text-light)}
+.hours-block{margin-top:36px;border-top:1px solid var(--border);padding-top:28px}
+.hours-title{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-light);margin-bottom:16px}
+.hours-row{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--border);font-size:13px}
+.hours-row:last-child{border-bottom:none}
+.h-day{color:var(--text-light)}.h-time{font-weight:500;color:var(--black)}.h-closed{color:var(--mid-gray);font-style:italic}
+.contact-map{width:100%;height:100%;min-height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:40px;position:relative}
+.map-big-text{font-family:'Playfair Display',serif;font-size:clamp(80px,10vw,130px);font-weight:400;font-style:italic;color:rgba(255,255,255,.07);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;line-height:1}
+.map-content{position:relative;z-index:1;text-align:center}
+.map-addr{font-family:'Playfair Display',serif;font-size:24px;font-style:italic;color:rgba(255,255,255,.85);line-height:1.3;margin-bottom:6px}
+.map-city{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:24px}
+.map-link-btn{background:var(--white);color:var(--black);font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:11px 24px;display:inline-block;transition:background .2s}.map-link-btn:hover{background:var(--off)}
+
+/* ─── PAGE HERO ─── */
+.page-hero{background:var(--black);padding:80px 0 72px;position:relative;overflow:hidden}
+.page-hero-bg{position:absolute;inset:0;display:flex;align-items:center;padding-left:52%;font-family:'Playfair Display',serif;font-size:clamp(80px,12vw,160px);font-weight:400;font-style:italic;color:rgba(255,255,255,.05);line-height:1;pointer-events:none}
+.page-hero-inner{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:0 32px}
+
+/* ─── CTA SECTION ─── */
+.cta-sec{background:var(--black);color:var(--white);text-align:center;padding:88px 32px}
+.cta-inner{max-width:600px;margin:0 auto}
+.cta-title{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,48px);font-weight:400;line-height:1.1;margin:14px 0 20px}
+.cta-title em{font-style:italic}
+.cta-sub{font-size:14px;color:rgba(255,255,255,.48);line-height:1.85;margin-bottom:36px}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+/* ─── VALUES GRID ─── */
+.vals-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border)}
+.val-card{background:var(--white);padding:36px 28px;text-align:center;transition:background .2s}
+.val-card:hover{background:var(--off)}
+.val-icon{font-size:32px;margin-bottom:16px}
+.val-name{font-family:'Playfair Display',serif;font-size:18px;color:var(--black);margin-bottom:10px}
+.val-desc{font-size:12.5px;color:var(--text-light);line-height:1.7}
+
+/* ─── REVEAL ─── */
+.rv{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.rv.on{opacity:1;transform:none}
+.rv1{transition-delay:.1s}.rv2{transition-delay:.15s}.rv3{transition-delay:.2s}.rv4{transition-delay:.25s}
+
+/* ─── FOOTER ─── */
+footer{background:var(--black);color:rgba(255,255,255,.4);padding:56px 0 24px}
+.footer-grid{max-width:1400px;margin:0 auto;padding:0 32px 48px;display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;gap:48px;border-bottom:1px solid rgba(255,255,255,.08)}
+.footer-logo-txt{font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.8);margin-bottom:4px}
+.footer-logo-sub{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:18px}
+.footer-about{font-size:12.5px;line-height:1.8;color:rgba(255,255,255,.35)}
+.footer-col-title{font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:16px}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:8px}
+.footer-links a{font-size:12.5px;color:rgba(255,255,255,.35);background:none;border:none;cursor:pointer;font-family:inherit;text-align:left;transition:color .2s}
+.footer-links a:hover{color:rgba(255,255,255,.7)}
+.footer-bottom{max-width:1400px;margin:0 auto;padding:20px 32px 0;display:flex;justify-content:space-between;font-size:10.5px;color:rgba(255,255,255,.2);flex-wrap:wrap;gap:8px}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1100px){
+  .prod-grid{grid-template-columns:repeat(3,1fr)}
+  .mega-wrap{min-width:620px}
+  .mega-grid{grid-template-columns:180px 1fr 1fr 170px}
+  .mega-col:nth-child(4){display:none}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:860px){
+  .main-nav{display:none}
+  .hamburger{display:flex}
+  .hero{grid-template-columns:1fr;min-height:auto}
+  .hero-right{min-height:50vw}
+  .hero-left{padding:48px 28px}
+  .edit-split{grid-template-columns:1fr}
+  .edit-img{min-height:48vw}
+  .edit-content,.edit-content-r{padding:48px 28px}
+  .contact-split{grid-template-columns:1fr}
+  .contact-left{padding:48px 28px}
+  .prod-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-grid{grid-template-columns:1fr 1fr}
+  .team-grid{grid-template-columns:1fr 1fr}
+  .test-grid{grid-template-columns:1fr}
+  .srv-grid{grid-template-columns:1fr 1fr}
+  .salud-grid{grid-template-columns:1fr}
+  .blog-grid{grid-template-columns:1fr 1fr}
+  .vals-grid{grid-template-columns:repeat(2,1fr)}
+  .brands-row{grid-template-columns:repeat(3,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .page-hero{padding:56px 0}
+}
+@media(max-width:560px){
+  .prod-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:1fr}
+  .team-grid{grid-template-columns:1fr}
+  .srv-grid{grid-template-columns:1fr}
+  .blog-grid{grid-template-columns:1fr}
+  .vals-grid{grid-template-columns:1fr}
+  .brands-row{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr}
+  .container{padding:0 20px}
+  .strip-inner{padding:0 20px}
+  .topbar-right{display:none}
+}
+</style>
+</head>
+<body>
+<a href="#contenido-principal" class="skip-link">Saltar al contenido</a>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <span>C. Trinidad, 4 — Talavera de la Reina, Toledo</span>
+    <div class="topbar-right">
+      <a href="tel:+34925812543">925 81 25 43</a>
+      <span class="topbar-sep">·</span>
+      <a href="tel:+34628454731">628 45 47 31</a>
+      <span class="topbar-sep">·</span>
+      <a href="/cdn-cgi/l/email-protection#4c25222a230c233c38252f2d383e252225282d28382d202d3a293e2d622f2321"><span class="__cf_email__" data-cfemail="d8b1b6beb798b7a8acb1bbb9acaab1b6b1bcb9bcacb9b4b9aebdaab9f6bbb7b5">[email&#160;protected]</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="hdr" role="banner">
+  <div class="header-inner">
+    <button class="logo" onclick="nav('home')" aria-label="Óptica Trinidad - Volver al inicio">ÓPTICA TRINIDAD</button>
+
+    <nav aria-label="Menú principal"><ul class="main-nav">
+
+      <li class="nav-item"><button class="nav-btn" onclick="nav('novedades')">Novedades</button></li>
+
+      <li class="nav-item">
+        <button class="nav-btn">Lentillas <svg viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="mega-wrap">
+          <div class="mega-grid">
+            <div class="mega-col-first">
+              <a onclick="nav('lentillas')">Todas las lentillas</a>
+              <a onclick="nav('lentillas')">Pack ahorro lentillas</a>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Por uso</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('lentillas')">Lentillas diarias</a></li>
+                <li><a onclick="nav('lentillas')">Lentillas mensuales</a></li>
+                <li><a onclick="nav('lentillas')">Lentillas de colores y fantasía</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Por defecto visual</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('lentillas')">Presbicia</a></li>
+                <li><a onclick="nav('lentillas')">Astigmatismo</a></li>
+                <li><a onclick="nav('lentillas')">Miopía e Hipermetropía</a></li>
+              </ul>
+            </div>
+            <div class="mega-col" style="border-right:none">
+              <div class="mega-col-title">Líquidos</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('lentillas')">Líquido de lentillas</a></li>
+                <li><a onclick="nav('lentillas')">Lágrimas artificiales</a></li>
+              </ul>
+            </div>
+            <div class="mega-promo" onclick="nav('lentillas')">
+              <div class="mega-promo-img">🔵</div>
+              <div class="mega-promo-text">
+                <div class="mega-promo-label">Suscripción lentillas</div>
+                <div class="mega-promo-offer">–5% de ahorro</div>
+              </div>
+            </div>
+          </div>
+          <div class="mega-footer"><a onclick="nav('home')">Promociones</a><a onclick="nav('home')">Productos solidarios</a></div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button class="nav-btn">Gafas de sol <svg viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="mega-wrap">
+          <div class="mega-grid">
+            <div class="mega-col-first"><a onclick="nav('gafas-sol')">Todas las gafas de sol</a></div>
+            <div class="mega-col">
+              <div class="mega-col-title">Género y edad</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('gafas-sol')">Gafas de mujer</a></li>
+                <li><a onclick="nav('gafas-sol')">Gafas de hombre</a></li>
+                <li><a onclick="nav('gafas-sol')">Gafas de niño y niña</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Tipo de gafa</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('gafas-sol')">Gafas de sol</a></li>
+                <li><a onclick="nav('gafas-sol')">Gafas de sol deportivas</a></li>
+                <li><a onclick="nav('gafas-sol')">Polarizadas</a></li>
+              </ul>
+            </div>
+            <div class="mega-col" style="border-right:none">
+              <div class="mega-col-title">Colecciones</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('gafas-sol')">Nueva colección</a></li>
+                <li><a onclick="nav('gafas-sol')">Colecciones exclusivas</a></li>
+                <li><a onclick="nav('gafas-sol')">Temporada</a></li>
+              </ul>
+            </div>
+            <div class="mega-promo" onclick="nav('gafas-sol')">
+              <div class="mega-promo-img">🕶️</div>
+              <div class="mega-promo-text">
+                <div class="mega-promo-label">Oferta especial</div>
+                <div class="mega-promo-offer">2ª unidad al 50%</div>
+              </div>
+            </div>
+          </div>
+          <div class="mega-footer"><a onclick="nav('home')">Promociones</a><a onclick="nav('home')">Productos solidarios</a></div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button class="nav-btn">Gafas de ver <svg viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="mega-wrap">
+          <div class="mega-grid">
+            <div class="mega-col-first"><a onclick="nav('gafas-ver')">Todas las gafas de ver</a></div>
+            <div class="mega-col">
+              <div class="mega-col-title">Género y edad</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('gafas-ver')">Gafas de mujer</a></li>
+                <li><a onclick="nav('gafas-ver')">Gafas de hombre</a></li>
+                <li><a onclick="nav('gafas-ver')">Gafas de niño y niña</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Tipo de gafa</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('gafas-ver')">Gafas de luz azul</a></li>
+                <li><a onclick="nav('gafas-ver')">Gafas graduadas</a></li>
+                <li><a onclick="nav('gafas-ver')">Gafas deportivas</a></li>
+                <li><a onclick="nav('gafas-ver')">Gafas de lectura</a></li>
+                <li><a onclick="nav('gafas-ver')">Gafas clip-on</a></li>
+              </ul>
+            </div>
+            <div class="mega-col" style="border-right:none">
+              <div class="mega-col-title">Colecciones</div>
+              <ul class="mega-list">
+                <li><a onclick="nav('gafas-ver')">Nueva colección</a></li>
+                <li><a onclick="nav('gafas-ver')">Colecciones exclusivas</a></li>
+                <li><a onclick="nav('gafas-ver')">Temporada</a></li>
+              </ul>
+            </div>
+            <div class="mega-promo" onclick="nav('gafas-ver')">
+              <div class="mega-promo-img">👓</div>
+              <div class="mega-promo-text">
+                <div class="mega-promo-label">Oferta especial</div>
+                <div class="mega-promo-offer">2 graduadas por 109€</div>
+              </div>
+            </div>
+          </div>
+          <div class="mega-footer"><a onclick="nav('home')">Promociones</a><a onclick="nav('home')">Productos solidarios</a></div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button class="nav-btn">Servicios <svg viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="simple-drop">
+          <a onclick="nav('servicios')">Todos los servicios</a>
+          <a onclick="nav('servicios')">Examen visual</a>
+          <a onclick="nav('servicios')">Lentes de contacto</a>
+          <a onclick="nav('servicios')">Orto-K / Terapia corneal</a>
+          <a onclick="nav('servicios')">Tonometría</a>
+          <a onclick="nav('salud')">Salud visual</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button class="nav-btn">Nosotros <svg viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="simple-drop">
+          <a onclick="nav('nosotros')">Quiénes somos</a>
+          <a onclick="nav('nosotros')">Nuestro equipo</a>
+          <a onclick="nav('nosotros')">Nuestras marcas</a>
+          <a onclick="nav('blog')">Blog</a>
+        </div>
+      </li>
+
+      <li class="nav-item"><button class="nav-btn nav-cta" onclick="nav('contacto')">Pedir cita</button></li>
+    </ul>
+</nav>
+
+    <button class="hamburger" id="mobBtn" onclick="openMob()" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- CITA BAND -->
+<div class="cita-band"><a href="#" onclick="nav('contacto');return false">PEDIR CITA &nbsp;→</a></div>
+
+<!-- MOBILE MENU -->
+<div class="mob-overlay" id="mobMenu">
+  <div class="mob-head">
+    <button class="logo" onclick="nav('home');closeMob()" aria-label="Óptica Trinidad - Inicio">ÓPTICA TRINIDAD</button>
+    <button class="mob-close" onclick="closeMob()">✕</button>
+  </div>
+  <div class="mob-body">
+    <div class="mob-sec"><button class="mob-link" onclick="nav('novedades');closeMob()">Novedades</button></div>
+    <div class="mob-sec">
+      <div class="mob-sec-title">Lentillas</div>
+      <button class="mob-link" onclick="nav('lentillas');closeMob()">Todas las lentillas</button>
+      <button class="mob-link" onclick="nav('lentillas');closeMob()">Diarias</button>
+      <button class="mob-link" onclick="nav('lentillas');closeMob()">Mensuales</button>
+      <button class="mob-link" onclick="nav('lentillas');closeMob()">Colores y fantasía</button>
+    </div>
+    <div class="mob-sec">
+      <div class="mob-sec-title">Gafas de sol</div>
+      <button class="mob-link" onclick="nav('gafas-sol');closeMob()">Todas las gafas de sol</button>
+      <button class="mob-link" onclick="nav('gafas-sol');closeMob()">Mujer</button>
+      <button class="mob-link" onclick="nav('gafas-sol');closeMob()">Hombre</button>
+      <button class="mob-link" onclick="nav('gafas-sol');closeMob()">Niños</button>
+    </div>
+    <div class="mob-sec">
+      <div class="mob-sec-title">Gafas de ver</div>
+      <button class="mob-link" onclick="nav('gafas-ver');closeMob()">Todas las gafas graduadas</button>
+      <button class="mob-link" onclick="nav('gafas-ver');closeMob()">Luz azul</button>
+      <button class="mob-link" onclick="nav('gafas-ver');closeMob()">Lectura</button>
+    </div>
+    <div class="mob-sec">
+      <div class="mob-sec-title">Servicios</div>
+      <button class="mob-link" onclick="nav('servicios');closeMob()">Todos los servicios</button>
+      <button class="mob-link" onclick="nav('salud');closeMob()">Salud visual</button>
+    </div>
+    <div class="mob-sec">
+      <div class="mob-sec-title">Nosotros</div>
+      <button class="mob-link" onclick="nav('nosotros');closeMob()">Quiénes somos</button>
+      <button class="mob-link" onclick="nav('blog');closeMob()">Blog</button>
+    </div>
+    <button class="mob-cta" onclick="nav('contacto');closeMob()">Pedir cita</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     HOME
+════════════════════════════════════════ -->
+<main id="main-content" role="main"><div class="page active" id="page-home">
+
+  <section class="hero" id="contenido-principal" aria-label="Portada">
+    <div class="hero-left">
+      <div class="hero-bg-text">Visión</div>
+      <div class="hero-left-content">
+        <span class="eyebrow eyebrow-w">Tu óptica de confianza en Talavera de la Reina</span>
+        <h1 class="hero-h1-seo" aria-label="Óptica Trinidad · Talavera de la Reina">ÓPTICA TRINIDAD<span class="hero-h1-sep"> · </span>TALAVERA DE LA REINA</h1>
+        <p class="hero-tagline">Tu visión, <em>otra forma de mirar</em></p>
+        <p class="hero-subtitle">Marcas exclusivas, exámenes visuales gratuitos y el trato personalizado que mereces.</p>
+        <div class="hero-btns">
+          <button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button>
+          <button class="btn btn-outline-w" onclick="nav('servicios')">Ver servicios</button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-right-img" id="heroImg" style="font-size:0;padding:0"><img src="optica_Blanco_Negro.svg" alt="Óptica Trinidad" style="width:100%;height:100%;object-fit:cover;display:block"/></div>
+      <div class="hero-right-caption">
+        <p class="hero-caption-label">Nueva colección</p>
+        <p class="hero-caption-value">Primavera · Verano 2025</p>
+      </div>
+    </div>
+    <!-- MARQUEE H1 — scroll Toscana style -->
+    <div class="hero-marquee-wrap" aria-hidden="true">
+      <div class="hero-marquee-track">
+        <span class="hero-marquee-item">ÓPTICA TRINIDAD<span class="hero-marquee-sep"> · </span>TALAVERA DE LA REINA</span>
+        <span class="hero-marquee-item">ÓPTICA TRINIDAD<span class="hero-marquee-sep"> · </span>TALAVERA DE LA REINA</span>
+        <span class="hero-marquee-item">ÓPTICA TRINIDAD<span class="hero-marquee-sep"> · </span>TALAVERA DE LA REINA</span>
+        <span class="hero-marquee-item">ÓPTICA TRINIDAD<span class="hero-marquee-sep"> · </span>TALAVERA DE LA REINA</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="announce">Consulta visual gratuita &nbsp;·&nbsp; Lun–Vie 9:30–20:00 &nbsp;·&nbsp; Sáb 10:00–14:00 &nbsp;·&nbsp; 925 81 25 43</div>
+
+  <div class="strip">
+    <div class="strip-inner">
+      <div class="strip-item">Examen visual <strong>gratuito</strong></div>
+      <div class="strip-item">Marcas <strong>premium</strong></div>
+      <div class="strip-item">Tecnología <strong>de vanguardia</strong></div>
+      <div class="strip-item">Trato <strong>personalizado</strong></div>
+      <div class="strip-item">Centro de <strong>Talavera</strong></div>
+    </div>
+  </div>
+
+  <!-- Categorías -->
+  <section class="sec" style="padding-top:48px;padding-bottom:0">
+    <div class="container">
+      <div class="sec-head-flex">
+        <div><span class="eyebrow">Explora la tienda</span><h2 class="h2-serif">Nuestras <em>colecciones</em></h2></div>
+      </div>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-card rv" onclick="nav('gafas-ver')">
+        <!-- IMAGEN: <img src="gafas-ver.jpg" alt="Gafas de ver"> -->
+        <div class="cat-img">👓</div>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-tag">Colección</div>
+          <h3 class="cat-name">Gafas de ver</h3>
+          <div class="cat-link">Explorar <span>→</span></div>
+        </div>
+      </div>
+      <div class="cat-card rv rv1" onclick="nav('gafas-sol')">
+        <div class="cat-img">🕶️</div>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-tag">Colección</div>
+          <h3 class="cat-name">Gafas de sol</h3>
+          <div class="cat-link">Explorar <span>→</span></div>
+        </div>
+      </div>
+      <div class="cat-card rv rv2" onclick="nav('lentillas')">
+        <div class="cat-img">🔵</div>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-tag">Colección</div>
+          <h3 class="cat-name">Lentillas</h3>
+          <div class="cat-link">Explorar <span>→</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Novedades -->
+  <section class="sec">
+    <div class="container">
+      <div class="sec-head-flex">
+        <div><span class="eyebrow">Lo más nuevo</span><h2 class="h2-serif"><em>Novedades</em> de temporada</h2></div>
+        <button class="btn btn-outline" onclick="nav('novedades')">Ver todo</button>
+      </div>
+    </div>
+    <div class="prod-grid rv">
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product">
+        <div class="prod-img-wrap">
+          <!-- IMAGEN: <img src="ray-ban-clubmaster.jpg" alt="Ray-Ban Clubmaster"> -->
+          <div class="prod-emoji">🕶️</div>
+          <div class="prod-badge new">Novedad</div>
+        </div>
+        <div class="prod-body">
+          <p class="prod-brand">Ray-Ban</p>
+          <h3 class="prod-name">Clubmaster Classic</h3>
+          <div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span><span class="dot" style="background:#2c4a6e"></span></div>
+          <p class="prod-desc">Icónico diseño con puente metálico. Disponible en 6 colores.</p>
+          <button class="prod-cta" onclick="nav('gafas-sol')">Ver más</button>
+        </div>
+      </div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product">
+        <div class="prod-img-wrap">
+          <div class="prod-emoji">👓</div>
+          <div class="prod-badge">Gafas de ver</div>
+        </div>
+        <div class="prod-body">
+          <p class="prod-brand">Prada</p>
+          <h3 class="prod-name">Linea Rossa</h3>
+          <div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div>
+          <p class="prod-desc">Elegancia italiana en titanio ultraligero.</p>
+          <button class="prod-cta" onclick="nav('gafas-ver')">Ver más</button>
+        </div>
+      </div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product">
+        <div class="prod-img-wrap">
+          <div class="prod-emoji">🕶️</div>
+        </div>
+        <div class="prod-body">
+          <p class="prod-brand">Gucci</p>
+          <h3 class="prod-name">GG Logo Collection</h3>
+          <div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span></div>
+          <p class="prod-desc">Alta moda con protección UV400 total.</p>
+          <button class="prod-cta" onclick="nav('gafas-sol')">Ver más</button>
+        </div>
+      </div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product">
+        <div class="prod-img-wrap" style="background:#e8eff5">
+          <div class="prod-emoji">🔵</div>
+          <div class="prod-badge new">Más vendido</div>
+        </div>
+        <div class="prod-body">
+          <p class="prod-brand">Acuvue</p>
+          <h3 class="prod-name">Oasys 1-Day</h3>
+          <p class="prod-desc">Máxima comodidad con tecnología HydraLuxe.</p>
+          <button class="prod-cta" onclick="nav('lentillas')">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Split nosotros -->
+  <section style="padding:0">
+    <div class="edit-split">
+      <div class="edit-img">
+        <!-- IMAGEN: <img src="tienda-interior.jpg" alt="Interior óptica"> -->
+        <div class="edit-img-inner">🏪</div>
+      </div>
+      <div class="edit-content">
+        <span class="eyebrow">Quiénes somos</span>
+        <h2 class="h2-serif">Otra forma<br>de <em>mirar</em></h2>
+        <p class="edit-lead">En Óptica Trinidad llevamos más de 20 años cuidando la visión de Talavera de la Reina. Tecnología de vanguardia, marcas exclusivas y el trato cercano que nos define desde el primer día.</p>
+        <div class="edit-feats" style="margin-top:28px">
+          <div class="efeat rv"><div class="efeat-num">01</div><div><div class="efeat-title">Trato personalizado</div><div class="efeat-desc">Cada cliente es único. Nos adaptamos a tus necesidades y presupuesto.</div></div></div>
+          <div class="efeat rv rv1"><div class="efeat-num">02</div><div><div class="efeat-title">Tecnología de vanguardia</div><div class="efeat-desc">Los equipos diagnósticos más avanzados del sector.</div></div></div>
+          <div class="efeat rv rv2"><div class="efeat-num">03</div><div><div class="efeat-title">Equipo de expertas</div><div class="efeat-desc">Optometristas tituladas con formación continua especializada.</div></div></div>
+        </div>
+        <button class="btn btn-black" style="margin-top:32px" onclick="nav('nosotros')">Conocer el equipo</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios home -->
+  <section class="sec sec-off">
+    <div class="container">
+      <div class="sec-head-flex">
+        <div><span class="eyebrow">Lo que ofrecemos</span><h2 class="h2-serif">Nuestros <em>servicios</em></h2></div>
+        <button class="btn btn-outline" onclick="nav('servicios')">Ver todos</button>
+      </div>
+    </div>
+    <div class="srv-grid">
+      <article class="srv-card rv"><span class="srv-num">01</span><span class="srv-icon">👁️</span><h3 class="srv-name">Examen visual</h3><p class="srv-desc">Revisión completa con equipos de diagnóstico de última generación. Gratuito y sin compromiso.</p></div>
+      <article class="srv-card rv rv1"><span class="srv-num">02</span><span class="srv-icon">🔵</span><h3 class="srv-name">Lentes de contacto</h3><p class="srv-desc">Adaptación y seguimiento personalizado. Prueba inicial sin coste incluida.</p></div>
+      <article class="srv-card rv rv2"><span class="srv-num">03</span><span class="srv-icon">🌙</span><h3 class="srv-name">Orto-K nocturno</h3><p class="srv-desc">Terapia corneal refractiva para controlar la miopía sin gafas ni cirugía.</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="sec">
+    <div class="container">
+      <div class="sec-head" style="text-align:center"><span class="eyebrow">Lo que dicen</span><h2 class="h2-serif" style="text-align:center">Opiniones de <em>clientes</em></h2></div>
+    </div>
+    <div class="test-grid rv">
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Servicio excelente, personal muy amable. Limpieza sobresaliente. Sin duda la mejor óptica de Talavera."</p><cite class="test-author">— Mar Lozano</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Trato único y gran profesionalidad. Resuelven cualquier incidencia con rapidez increíble."</p><cite class="test-author">— Mario Gómez</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Gran equipo profesional con trato amable y personalizado. Excelente relación calidad-precio."</p><cite class="test-author">— Alberto Bielsa</cite></blockquote>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-sec">
+    <div class="cta-inner">
+      <span class="eyebrow eyebrow-w">Primera consulta gratuita</span>
+      <h2 class="cta-title">Si no nos conoces,<br>es hora de <em>ponernos a prueba</em></h2>
+      <p class="cta-sub">Tu primera visita es completamente gratuita. Evalúa tu salud visual sin ningún compromiso con nuestras especialistas.</p>
+      <div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button><a href="https://api.whatsapp.com/send?phone=34628454731" target="_blank" rel="noopener" class="btn btn-outline-w">WhatsApp</a></div>
+    </div>
+  </div>
+
+  <!-- Marcas -->
+  <section class="sec">
+    <div class="container"><div class="sec-head" style="text-align:center;margin-bottom:36px"><span class="eyebrow">Con quienes trabajamos</span><h2 class="h2-serif" style="text-align:center">Nuestras <em>marcas</em></h2></div></div>
+    <div class="brands-row">
+      <div class="brand-cell">Ray-Ban</div><div class="brand-cell">Prada</div><div class="brand-cell">Gucci</div><div class="brand-cell">Oakley</div><div class="brand-cell">Tom Ford</div>
+      <div class="brand-cell">Silhouette</div><div class="brand-cell">Lindberg</div><div class="brand-cell">Persol</div><div class="brand-cell">Maui Jim</div><div class="brand-cell">Rudy Project</div>
+    </div>
+  </section>
+
+</div><!-- /home -->
+
+<!-- ════════════════════════════════════════
+     NOVEDADES
+════════════════════════════════════════ -->
+<div class="page" id="page-novedades" role="region" aria-labelledby="page-title-novedades">
+  <div class="page-hero"><div class="page-hero-bg">Novedades</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Temporada actual</span><h1 class="h1-serif" style="color:var(--white)"><em>Novedades</em></h1><p class="body-text body-text-w" style="margin-top:14px">Los últimos lanzamientos en gafas graduadas, gafas de sol y lentillas.</p></div></div>
+  <section class="sec">
+    <div class="container">
+      <div class="filter-row"><button class="ftab on">Todos</button><button class="ftab">Gafas de ver</button><button class="ftab">Gafas de sol</button><button class="ftab">Lentillas</button></div>
+    </div>
+    <div class="prod-grid">
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Novedad</div></div><div class="prod-body"><p class="prod-brand">Ray-Ban</p><h3 class="prod-name">Clubmaster Classic</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span><span class="dot" style="background:#2c4a6e"></span></div><p class="prod-desc">Diseño icónico con puente metálico y varillas acetato. 6 colores disponibles.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div></div><div class="prod-body"><p class="prod-brand">Prada</p><h3 class="prod-name">Linea Rossa 2025</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Titanio ultraligero con bisagras de precisión. Elegancia italiana redefinida.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Trending</div></div><div class="prod-body"><p class="prod-brand">Gucci</p><h3 class="prod-name">GG Logo Square</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span></div><p class="prod-desc">Alta moda con emblema GG dorado. Cristales degradados UV400.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div></div><div class="prod-body"><p class="prod-brand">Tom Ford</p><h3 class="prod-name">FT5872-B Luz Azul</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Filtro luz azul integrado. Perfectas para largas jornadas de pantalla.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div></div><div class="prod-body"><p class="prod-brand">Oakley</p><h3 class="prod-name">Holbrook XL</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#e63946"></span></div><p class="prod-desc">Edición especial con lentes Prizm. Tecnología óptica de alta definición.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#e8eff5"><div class="prod-emoji">🔵</div><div class="prod-badge">Más vendido</div></div><div class="prod-body"><p class="prod-brand">Acuvue</p><h3 class="prod-name">Oasys 1-Day</h3><p class="prod-desc">Lentilla diaria de hidrogel de silicona con tecnología HydraLuxe.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div></div><div class="prod-body"><p class="prod-brand">Lindberg</p><h3 class="prod-name">Air Titanium Rim</h3><div class="prod-dots"><span class="dot" style="background:#c0c0c0"></span><span class="dot" style="background:#8B6914"></span></div><p class="prod-desc">Las gafas más ligeras del mundo. Diseño danés premiado.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div></div><div class="prod-body"><p class="prod-brand">Persol</p><h3 class="prod-name">PO3235S Steve</h3><div class="prod-dots"><span class="dot" style="background:#2c4a6e"></span><span class="dot" style="background:#1a1a1a"></span></div><p class="prod-desc">Cristales minerales con sistema Meflecto. Artesanía italiana.</p><button class="prod-cta">Consultar</button></div></div>
+    </div>
+  </section>
+  <div class="cta-sec"><div class="cta-inner"><span class="eyebrow eyebrow-w">¿Te interesa algo?</span><h2 class="cta-title">Visítanos y <em>pruébalas en persona</em></h2><div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button></div></div></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     GAFAS DE SOL
+════════════════════════════════════════ -->
+<div class="page" id="page-gafas-sol" role="region" aria-labelledby="page-title-gafas-sol">
+  <div class="page-hero"><div class="page-hero-bg">Sol</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Colección</span><h1 class="h1-serif" style="color:var(--white)">Gafas de <em style="font-style:italic;color:rgba(255,255,255,.55)">sol</em></h1><p class="body-text body-text-w" style="margin-top:14px">Estilo y protección UV400 en las mejores marcas del mercado.</p></div></div>
+  <section class="sec">
+    <div class="container"><div class="filter-row"><button class="ftab on">Todas</button><button class="ftab">Mujer</button><button class="ftab">Hombre</button><button class="ftab">Niños</button><button class="ftab">Deportivas</button><button class="ftab">Polarizadas</button></div></div>
+    <div class="prod-grid">
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Mujer</div></div><div class="prod-body"><p class="prod-brand">Ray-Ban</p><h3 class="prod-name">Clubmaster</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span><span class="dot" style="background:#2c4a6e"></span></div><p class="prod-desc">Montura redonda con detalles metálicos. Cristal G-15.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Temporada</div></div><div class="prod-body"><p class="prod-brand">Gucci</p><h3 class="prod-name">GG Logo Collection</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span></div><p class="prod-desc">Alta moda con máxima protección UV400.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div></div><div class="prod-body"><p class="prod-brand">Tom Ford</p><h3 class="prod-name">Sofía Butterfly</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Feminidad y elegancia en cada detalle.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Hombre</div></div><div class="prod-body"><p class="prod-brand">Persol</p><h3 class="prod-name">PO3235S</h3><div class="prod-dots"><span class="dot" style="background:#2c4a6e"></span><span class="dot" style="background:#1a1a1a"></span></div><p class="prod-desc">Cristales minerales con sistema Meflecto.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div></div><div class="prod-body"><p class="prod-brand">Oakley</p><h3 class="prod-name">Holbrook Polarized</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span><span class="dot" style="background:#2c4a6e"></span></div><p class="prod-desc">Lentes Prizm polarizadas de alto rendimiento.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Niños</div></div><div class="prod-body"><p class="prod-brand">Oakley</p><h3 class="prod-name">Youth Collection</h3><div class="prod-dots"><span class="dot" style="background:#e63946"></span><span class="dot" style="background:#2c4a6e"></span><span class="dot" style="background:#2d6a4f"></span></div><p class="prod-desc">Diseñadas para caras pequeñas. Resistentes y flexibles.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div></div><div class="prod-body"><p class="prod-brand">Maui Jim</p><h3 class="prod-name">Peahi Polarized</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Polarización HT de la más alta calidad.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">🕶️</div><div class="prod-badge">Deportivas</div></div><div class="prod-body"><p class="prod-brand">Rudy Project</p><h3 class="prod-name">Defender</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#e63946"></span></div><p class="prod-desc">Para ciclismo, running y deportes de agua.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+    </div>
+  </section>
+  <div class="cta-sec"><div class="cta-inner"><span class="eyebrow eyebrow-w">Ven a vernos</span><h2 class="cta-title">Pruébalas<br><em>en persona</em></h2><div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button><a href="tel:+34925812543" class="btn btn-outline-w">925 81 25 43</a></div></div></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     GAFAS DE VER
+════════════════════════════════════════ -->
+<div class="page" id="page-gafas-ver" role="region" aria-labelledby="page-title-gafas-ver">
+  <div class="page-hero"><div class="page-hero-bg">Ver</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Colección</span><h1 class="h1-serif" style="color:var(--white)">Gafas de <em style="font-style:italic;color:rgba(255,255,255,.55)">ver</em></h1><p class="body-text body-text-w" style="margin-top:14px">Gafas graduadas en las mejores monturas. Te graduamos y asesoramos sin compromiso.</p></div></div>
+  <section class="sec">
+    <div class="container"><div class="filter-row"><button class="ftab on">Todas</button><button class="ftab">Mujer</button><button class="ftab">Hombre</button><button class="ftab">Niños</button><button class="ftab">Luz azul</button><button class="ftab">Lectura</button><button class="ftab">Deportivas</button><button class="ftab">Clip-on</button></div></div>
+    <div class="prod-grid">
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div><div class="prod-badge">Mujer</div></div><div class="prod-body"><p class="prod-brand">Prada</p><h3 class="prod-name">Linea Rossa</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Elegancia italiana en titanio ultraligero.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div></div><div class="prod-body"><p class="prod-brand">Tom Ford</p><h3 class="prod-name">FT5872-B Luz Azul</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Filtro de luz azul integrado. Ideal para pantallas.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div><div class="prod-badge">Premium</div></div><div class="prod-body"><p class="prod-brand">Lindberg</p><h3 class="prod-name">Air Titanium Rim</h3><div class="prod-dots"><span class="dot" style="background:#c0c0c0"></span><span class="dot" style="background:#8B6914"></span></div><p class="prod-desc">Las gafas más ligeras del mundo. Sin tornillos.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div><div class="prod-badge">Hombre</div></div><div class="prod-body"><p class="prod-brand">Silhouette</p><h3 class="prod-name">Titan Minimal Art</h3><div class="prod-dots"><span class="dot" style="background:#c0c0c0"></span><span class="dot" style="background:#1a1a1a"></span></div><p class="prod-desc">Pura ingeniería óptica ultra minimalista.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div><div class="prod-badge">Niños</div></div><div class="prod-body"><p class="prod-brand">Miraflex</p><h3 class="prod-name">New Baby 2</h3><div class="prod-dots"><span class="dot" style="background:#e63946"></span><span class="dot" style="background:#2c4a6e"></span><span class="dot" style="background:#2d6a4f"></span></div><p class="prod-desc">Goma flexible e irrompible para los más pequeños.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div></div><div class="prod-body"><p class="prod-brand">Zeiss</p><h3 class="prod-name">Progressive Individual</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Progresivos personalizados de la más alta precisión.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div><div class="prod-badge">Lectura</div></div><div class="prod-body"><p class="prod-brand">Modo</p><h3 class="prod-name">Reading Collection</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#8B6914"></span><span class="dot" style="background:#5c3d2e"></span></div><p class="prod-desc">Diseño discreto para la lectura cotidiana.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap"><div class="prod-emoji">👓</div><div class="prod-badge">Deportivas</div></div><div class="prod-body"><p class="prod-brand">Rudy Project</p><h3 class="prod-name">Rx Insert</h3><div class="prod-dots"><span class="dot" style="background:#1a1a1a"></span><span class="dot" style="background:#e63946"></span></div><p class="prod-desc">Adaptador graduado para gafas deportivas.</p><button class="prod-cta">Consultar disponibilidad</button></div></div>
+    </div>
+  </section>
+  <div class="cta-sec"><div class="cta-inner"><span class="eyebrow eyebrow-w">Primera visita gratuita</span><h2 class="cta-title">Te graduamos<br><em>sin compromiso</em></h2><div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button></div></div></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     LENTILLAS
+════════════════════════════════════════ -->
+<div class="page" id="page-lentillas" role="region" aria-labelledby="page-title-lentillas">
+  <div class="page-hero"><div class="page-hero-bg">Lentillas</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Colección</span><h1 class="h1-serif" style="color:var(--white)"><em style="font-style:italic;color:rgba(255,255,255,.55)">Lentillas</em></h1><p class="body-text body-text-w" style="margin-top:14px">Adaptación y seguimiento personalizado. Prueba inicial sin coste incluida.</p></div></div>
+  <section class="sec">
+    <div class="container"><div class="filter-row"><button class="ftab on">Todas</button><button class="ftab">Diarias</button><button class="ftab">Mensuales</button><button class="ftab">Colores</button><button class="ftab">Astigmatismo</button><button class="ftab">Presbicia</button><button class="ftab">Líquidos</button></div></div>
+    <div class="prod-grid">
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#e8eff5"><div class="prod-emoji">🔵</div><div class="prod-badge">Más vendida</div></div><div class="prod-body"><p class="prod-brand">Acuvue</p><h3 class="prod-name">Oasys 1-Day</h3><p class="prod-desc">Lentilla diaria de hidrogel de silicona. Máxima comodidad con tecnología HydraLuxe.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#e8eff5"><div class="prod-emoji">🔵</div></div><div class="prod-body"><p class="prod-brand">Bausch &amp; Lomb</p><h3 class="prod-name">Ultra Monthly</h3><p class="prod-desc">Mensual con tecnología MoistureSeal. Hasta 16h de comodidad.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#f0e8f5"><div class="prod-emoji">💜</div><div class="prod-badge">Colores</div></div><div class="prod-body"><p class="prod-brand">FreshLook</p><h3 class="prod-name">Colorblends</h3><p class="prod-desc">12 colores naturales y radiantes. Transformación sutil o espectacular.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#e8eff5"><div class="prod-emoji">🔵</div></div><div class="prod-body"><p class="prod-brand">Alcon</p><h3 class="prod-name">Dailies Total 1</h3><p class="prod-desc">La lentilla diaria con mayor contenido de agua en superficie (80%).</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#e8eff5"><div class="prod-emoji">🔵</div><div class="prod-badge">Astigmatismo</div></div><div class="prod-body"><p class="prod-brand">Acuvue</p><h3 class="prod-name">Oasys for Astigmatism</h3><p class="prod-desc">Tecnología ASD para visión estable con astigmatismo.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#e8eff5"><div class="prod-emoji">🔵</div><div class="prod-badge">Presbicia</div></div><div class="prod-body"><p class="prod-brand">CooperVision</p><h3 class="prod-name">Biofinity Multifocal</h3><p class="prod-desc">Visión nítida a todas las distancias. Tecnología Balanced Progressive.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#f5f0e8"><div class="prod-emoji">💧</div></div><div class="prod-body"><p class="prod-brand">Alcon</p><h3 class="prod-name">Opti-Free Puremoist</h3><p class="prod-desc">Líquido multiusos con tecnología TETRONIC.</p><button class="prod-cta">Consultar</button></div></div>
+      <article class="prod-card" itemscope itemtype="https://schema.org/Product"><div class="prod-img-wrap" style="background:#f5f0e8"><div class="prod-emoji">💧</div></div><div class="prod-body"><p class="prod-brand">Systane</p><h3 class="prod-name">Lágrimas Artificiales</h3><p class="prod-desc">Hidratación instantánea y duradera para ojos secos.</p><button class="prod-cta">Consultar</button></div></div>
+    </div>
+  </section>
+  <div class="cta-sec"><div class="cta-inner"><span class="eyebrow eyebrow-w">Adaptación gratuita</span><h2 class="cta-title">Prueba lentillas<br><em>sin compromiso</em></h2><div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button></div></div></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     SERVICIOS
+════════════════════════════════════════ -->
+<div class="page" id="page-servicios" role="region" aria-labelledby="page-title-servicios">
+  <div class="page-hero"><div class="page-hero-bg">Servicios</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Lo que ofrecemos</span><h1 class="h1-serif" style="color:var(--white)">Nuestros <em style="font-style:italic;color:rgba(255,255,255,.55)">servicios</em></h1><p class="body-text body-text-w" style="margin-top:14px">Cuidamos tu salud visual con la mayor profesionalidad y los mejores equipos.</p></div></div>
+  <section class="sec">
+    <div class="srv-grid">
+      <article class="srv-card"><span class="srv-num">01</span><span class="srv-icon">👁️</span><h3 class="srv-name">Examen visual completo</h3><p class="srv-desc">Revisión exhaustiva de agudeza visual, campo visual, presión intraocular y salud ocular completa. Con los equipos diagnósticos más avanzados del mercado.</p></div>
+      <article class="srv-card"><span class="srv-num">02</span><span class="srv-icon">🔍</span><h3 class="srv-name">Refracción</h3><p class="srv-desc">Determinación exacta de tu graduación mediante técnicas subjetivas y objetivas. La prescripción más precisa y cómoda para cada paciente.</p></div>
+      <article class="srv-card"><span class="srv-num">03</span><span class="srv-icon">💧</span><h3 class="srv-name">Tonometría</h3><p class="srv-desc">Medición de la presión intraocular, esencial para la detección precoz del glaucoma. Prueba indolora y rápida.</p></div>
+      <article class="srv-card"><span class="srv-num">04</span><span class="srv-icon">🌙</span><h3 class="srv-name">Orto-K — Terapia Corneal</h3><p class="srv-desc">Lentes nocturnas que remodelan suavemente la córnea. Visión nítida sin gafas al despertar. Ideal para el control de miopía infantil.</p></div>
+      <article class="srv-card"><span class="srv-num">05</span><span class="srv-icon">🔵</span><h3 class="srv-name">Adaptación de lentillas</h3><p class="srv-desc">Proceso personalizado de selección, adaptación y seguimiento. Topografía corneal, prueba inicial y revisiones incluidas.</p></div>
+      <article class="srv-card"><span class="srv-num">06</span><span class="srv-icon">🗺️</span><h3 class="srv-name">Topografía corneal</h3><p class="srv-desc">Mapa detallado de la superficie corneal. Esencial para la adaptación de lentes especiales y detección de queratocono.</p></div>
+      <article class="srv-card"><span class="srv-num">07</span><span class="srv-icon">🧒</span><h3 class="srv-name">Optometría pediátrica</h3><p class="srv-desc">Evaluación especializada para niños. Detección y tratamiento de ambliopía, estrabismo y problemas que afectan al aprendizaje.</p></div>
+      <article class="srv-card"><span class="srv-num">08</span><span class="srv-icon">🛠️</span><h3 class="srv-name">Ajuste y mantenimiento</h3><p class="srv-desc">Ajuste de monturas, cambio de gomas, soldaduras y reparaciones. Limpieza ultrasónica gratuita para clientes.</p></div>
+      <article class="srv-card"><span class="srv-num">09</span><span class="srv-icon">✨</span><h3 class="srv-name">Asesoría de imagen</h3><p class="srv-desc">Encontramos la montura perfecta para tu rostro, colorimetría y personalidad. Las gafas también son moda.</p></div>
+    </div>
+  </section>
+  <div class="cta-sec"><div class="cta-inner"><span class="eyebrow eyebrow-w">Primera consulta gratuita</span><h2 class="cta-title">Reserva tu cita<br><em>sin compromiso</em></h2><div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Pedir cita</button><a href="tel:+34925812543" class="btn btn-outline-w">925 81 25 43</a></div></div></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     SALUD VISUAL
+════════════════════════════════════════ -->
+<div class="page" id="page-salud" role="region" aria-labelledby="page-title-salud">
+  <div class="page-hero"><div class="page-hero-bg">Salud</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Información y cuidado</span><h1 class="h1-serif" style="color:var(--white)">Salud <em style="font-style:italic;color:rgba(255,255,255,.55)">visual</em></h1><p class="body-text body-text-w" style="margin-top:14px">Conoce los defectos visuales más comunes y cómo podemos ayudarte.</p></div></div>
+  <section class="sec">
+    <div class="salud-grid">
+      <div class="salud-card"><span class="salud-icon">👁️</span><h3 class="salud-name">Miopía</h3><p class="salud-desc">La miopía dificulta ver con claridad los objetos lejanos. Es uno de los defectos refractivos más comunes, especialmente en niños. Se corrige con gafas, lentillas o mediante Orto-K para frenar su progresión. Realizamos controles periódicos para monitorizar su evolución.</p></div>
+      <div class="salud-card"><span class="salud-icon">🔭</span><h3 class="salud-name">Hipermetropía</h3><p class="salud-desc">Provoca dificultad para ver de cerca y en casos avanzados también de lejos. Es frecuente que cause dolor de cabeza y fatiga visual al leer. Se corrige con gafas o lentes de contacto con lentes convergentes.</p></div>
+      <div class="salud-card"><span class="salud-icon">🌀</span><h3 class="salud-name">Astigmatismo</h3><p class="salud-desc">Provoca visión borrosa o distorsionada a cualquier distancia debido a una curvatura irregular de la córnea. Se corrige con lentes cilíndricas, lentes de contacto tóricas o cirugía refractiva.</p></div>
+      <div class="salud-card"><span class="salud-icon">📖</span><h3 class="salud-name">Presbicia (Vista cansada)</h3><p class="salud-desc">Proceso natural a partir de los 40-45 años. Pérdida progresiva de la capacidad de enfocar objetos cercanos. Se corrige con gafas progresivas, de lectura o lentes de contacto multifocales.</p></div>
+      <div class="salud-card"><span class="salud-icon">🧒</span><h3 class="salud-name">Ojo vago (Ambliopía)</h3><p class="salud-desc">Disminución de la agudeza visual en un ojo que no se desarrolló correctamente en la infancia. Fundamental detectarla antes de los 7-8 años. La revisión visual infantil temprana es clave.</p></div>
+      <div class="salud-card"><span class="salud-icon">💻</span><h3 class="salud-name">Síndrome del ordenador</h3><p class="salud-desc">El uso prolongado de pantallas causa fatiga visual, sequedad, dolor de cabeza y visión borrosa. Ofrecemos filtros de luz azul, lágrimas artificiales y revisiones ergonómicas.</p></div>
+    </div>
+  </section>
+  <div class="cta-sec"><div class="cta-inner"><span class="eyebrow eyebrow-w">Prevención</span><h2 class="cta-title">La revisión anual<br><em>es fundamental</em></h2><p class="cta-sub">Muchos problemas visuales no presentan síntomas hasta que están avanzados. Una revisión anual puede marcar la diferencia.</p><div class="cta-btns"><button class="btn btn-white" onclick="nav('contacto')">Reservar revisión</button></div></div></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     NOSOTROS
+════════════════════════════════════════ -->
+<div class="page" id="page-nosotros" role="region" aria-labelledby="page-title-nosotros">
+  <div class="page-hero"><div class="page-hero-bg">Toscana</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Quiénes somos</span><h1 class="h1-serif" style="color:var(--white)">Otra forma<br>de <em style="font-style:italic;color:rgba(255,255,255,.55)">mirar</em></h1><p class="body-text body-text-w" style="margin-top:14px">Tu óptica de confianza en el corazón de Talavera de la Reina desde hace más de 20 años.</p></div></div>
+
+  <!-- Historia split -->
+  <section style="padding:0">
+    <div class="edit-split">
+      <div class="edit-content" style="background:var(--off)">
+        <span class="eyebrow">Nuestra historia</span>
+        <h2 class="h2-serif">Desde el primer día,<br><em>tu visión</em> primero</h2>
+        <p class="edit-lead">Óptica Trinidad nació con una misión clara: ofrecer atención optométrica de la más alta calidad en Talavera de la Reina, con el trato cercano y humano que merece cada cliente.</p>
+        <p style="margin-top:14px;font-size:13px;color:var(--text-light);line-height:1.9">A lo largo de estos años hemos cuidado la visión de miles de familias talaveranenses, incorporando siempre los últimos avances tecnológicos sin perder la esencia que nos define: trato personalizado, honestidad y profesionalidad.</p>
+        <div class="edit-feats">
+          <div class="efeat"><div class="efeat-num">01</div><div><div class="efeat-title">Trato personalizado</div><div class="efeat-desc">Cada cliente es único. Nos adaptamos a sus necesidades y presupuesto.</div></div></div>
+          <div class="efeat"><div class="efeat-num">02</div><div><div class="efeat-title">Tecnología de vanguardia</div><div class="efeat-desc">Los equipos diagnósticos más avanzados del sector.</div></div></div>
+          <div class="efeat"><div class="efeat-num">03</div><div><div class="efeat-title">Formación continua</div><div class="efeat-desc">Nuestro equipo se forma constantemente para ofrecerte siempre lo mejor.</div></div></div>
+        </div>
+      </div>
+      <div class="edit-img">
+        <!-- IMAGEN: <img src="nosotros.jpg" alt="Óptica Trinidad interior"> -->
+        <div class="edit-img-inner">🏪</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section class="sec sec-off">
+    <div class="container"><div class="sec-head" style="text-align:center;margin-bottom:48px"><span class="eyebrow">Las personas que te cuidan</span><h2 class="h2-serif" style="text-align:center">Nuestro <em>equipo</em></h2></div></div>
+    <div class="team-grid">
+      <article class="team-card rv">
+        <!-- IMAGEN: <img src="herminia.jpg" alt="Herminia Rosa Vázquez"> -->
+        <div class="team-photo">👩‍⚕️</div>
+        <h3 class="team-name">Herminia Rosa Vázquez</h3>
+        <p class="team-role">Óptico-Optometrista · Directora técnica</p>
+        <p class="team-bio">Especialista en adaptación de lentes de contacto especiales y terapia corneal refractiva (Orto-K). Más de 20 años cuidando la visión en Talavera de la Reina.</p>
+      </div>
+      <article class="team-card rv rv2">
+        <!-- IMAGEN: <img src="carolina.jpg" alt="Carolina Alba Fernández"> -->
+        <div class="team-photo">👩‍⚕️</div>
+        <h3 class="team-name">Carolina Alba Fernández</h3>
+        <p class="team-role">Óptico-Optometrista</p>
+        <p class="team-bio">Especialista en salud visual pediátrica y control de miopía infantil. Formación avanzada en terapia visual y optometría clínica.</p>
+      </div>
+      <article class="team-card rv rv4">
+        <!-- IMAGEN: <img src="irene.jpg" alt="Irene Jiménez Lázaro"> -->
+        <div class="team-photo">👩‍💼</div>
+        <h3 class="team-name">Irene Jiménez Lázaro</h3>
+        <p class="team-role">Auxiliar de Óptica</p>
+        <p class="team-bio">Experta en asesoría de imagen y tendencias ópticas. Te ayudará a encontrar la montura perfecta para tu cara y personalidad.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores -->
+  <section class="sec">
+    <div class="container"><div class="sec-head" style="text-align:center;margin-bottom:40px"><span class="eyebrow">Lo que nos define</span><h2 class="h2-serif" style="text-align:center">Nuestros <em>valores</em></h2></div></div>
+    <div class="vals-grid">
+      <div class="val-card"><div class="val-icon">◎</div><h3 class="val-name">Honestidad</h3><p class="val-desc">Te damos siempre el mejor consejo, aunque eso signifique que no necesitas comprar nada.</p></div>
+      <div class="val-card"><div class="val-icon">◉</div><h3 class="val-name">Precisión</h3><p class="val-desc">Nos tomamos el tiempo necesario para que tu graduación sea exacta al 100%.</p></div>
+      <div class="val-card"><div class="val-icon">◈</div><h3 class="val-name">Cercanía</h3><p class="val-desc">Somos tu óptica de barrio. Te conocemos por tu nombre y recordamos tu historial.</p></div>
+      <div class="val-card"><div class="val-icon">⊞</div><h3 class="val-name">Innovación</h3><p class="val-desc">Incorporamos las últimas tecnologías y tratamientos ópticos del mercado.</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="sec sec-off">
+    <div class="container"><div class="sec-head" style="text-align:center;margin-bottom:40px"><span class="eyebrow">Lo que dicen nuestros clientes</span><h2 class="h2-serif" style="text-align:center">Opiniones <em>reales</em></h2></div></div>
+    <div class="test-grid">
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Servicio excelente, personal muy amable. Limpieza sobresaliente. Sin duda la mejor óptica de Talavera."</p><cite class="test-author">— Mar Lozano</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Trato único y gran profesionalidad. Siempre que he tenido un problema, lo resuelven con rapidez increíble."</p><cite class="test-author">— Mario Gómez</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Si pasas por Talavera y necesitas gafas, esta es tu óptica. Atención, variedad y precios inmejorable."</p><cite class="test-author">— Antonio F. Corrochano</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Para todas las edades. Entras como eres y sales con actitud positiva."</p><cite class="test-author">— José Isías</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Gran equipo profesional con trato amable y personalizado. Excelente calidad-precio."</p><cite class="test-author">— Alberto Bielsa</cite></blockquote>
+      <blockquote class="test-card"><div class="stars">★★★★★</div><p class="test-quote">"Competentes y simpáticas. Me ayudaron a elegir las gafas perfectas para mí."</p><cite class="test-author">— Angy García</cite></blockquote>
+    </div>
+  </section>
+
+  <!-- Marcas -->
+  <section class="sec">
+    <div class="container"><div class="sec-head" style="text-align:center;margin-bottom:36px"><span class="eyebrow">Con quienes trabajamos</span><h2 class="h2-serif" style="text-align:center">Nuestras <em>marcas</em></h2></div></div>
+    <div class="brands-row">
+      <div class="brand-cell">Ray-Ban</div><div class="brand-cell">Prada</div><div class="brand-cell">Gucci</div><div class="brand-cell">Oakley</div><div class="brand-cell">Tom Ford</div>
+      <div class="brand-cell">Silhouette</div><div class="brand-cell">Lindberg</div><div class="brand-cell">Persol</div><div class="brand-cell">Maui Jim</div><div class="brand-cell">Rudy Project</div>
+      <div class="brand-cell">Acuvue</div><div class="brand-cell">Alcon</div><div class="brand-cell">Bausch &amp; Lomb</div><div class="brand-cell">CooperVision</div><div class="brand-cell">Zeiss</div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════════════
+     BLOG
+════════════════════════════════════════ -->
+<div class="page" id="page-blog" role="region" aria-labelledby="page-title-blog">
+  <div class="page-hero"><div class="page-hero-bg">Blog</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Noticias y consejos</span><h1 class="h1-serif" style="color:var(--white)">Blog de <em style="font-style:italic;color:rgba(255,255,255,.55)">salud visual</em></h1></div></div>
+  <section class="sec">
+    <div class="container"><div class="filter-row"><button class="ftab on">Todos</button><button class="ftab">Salud visual</button><button class="ftab">Tendencias</button><button class="ftab">Consejos</button><button class="ftab">Tecnología</button></div></div>
+    <div class="blog-grid">
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting"><div class="blog-img"><div class="blog-img-inner" style="font-size:56px">🌞</div></div><div class="blog-body"><p class="blog-cat">Salud visual</p><h3 class="blog-title">Cómo proteger tus ojos del sol en verano</h3><p class="blog-excerpt">La radiación UV es uno de los principales factores de riesgo para la salud ocular. Te explicamos cómo elegir las gafas de sol adecuadas.</p><p class="blog-meta"><span>Marzo 2025</span></p></div></div>
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting"><div class="blog-img"><div class="blog-img-inner" style="font-size:56px">📱</div></div><div class="blog-body"><p class="blog-cat">Consejos</p><h3 class="blog-title">Síndrome del ojo seco por pantallas: causas y soluciones</h3><p class="blog-excerpt">Pasamos muchas horas frente a ordenadores y móviles. Descubre cómo reducir el impacto en tu salud visual con pequeños cambios de hábito.</p><p class="blog-meta"><span>Febrero 2025</span></p></div></div>
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting"><div class="blog-img"><div class="blog-img-inner" style="font-size:56px">🧒</div></div><div class="blog-body"><p class="blog-cat">Salud visual</p><h3 class="blog-title">¿Cuándo llevar a tu hijo al optometrista por primera vez?</h3><p class="blog-excerpt">La revisión visual infantil es fundamental para detectar problemas que pueden afectar al aprendizaje escolar.</p><p class="blog-meta"><span>Enero 2025</span></p></div></div>
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting"><div class="blog-img"><div class="blog-img-inner" style="font-size:56px">🌙</div></div><div class="blog-body"><p class="blog-cat">Tecnología</p><h3 class="blog-title">Orto-K: la alternativa a las gafas mientras duermes</h3><p class="blog-excerpt">La terapia corneal refractiva nocturna es una revolución para quienes quieren ver bien sin gafas ni cirugía.</p><p class="blog-meta"><span>Diciembre 2024</span></p></div></div>
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting"><div class="blog-img"><div class="blog-img-inner" style="font-size:56px">👓</div></div><div class="blog-body"><p class="blog-cat">Tendencias</p><h3 class="blog-title">Las tendencias en monturas para 2025</h3><p class="blog-excerpt">Desde las clásicas redondas hasta las llamativas cat-eye: repasamos los estilos que marcarán la temporada.</p><p class="blog-meta"><span>Noviembre 2024</span></p></div></div>
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting"><div class="blog-img"><div class="blog-img-inner" style="font-size:56px">🔵</div></div><div class="blog-body"><p class="blog-cat">Consejos</p><h3 class="blog-title">Lentillas vs gafas: ¿qué es mejor para ti?</h3><p class="blog-excerpt">Ambas opciones tienen ventajas según el estilo de vida. Te ayudamos a decidir cuál se adapta mejor a ti.</p><p class="blog-meta"><span>Octubre 2024</span></p></div></div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════════════
+     CONTACTO
+════════════════════════════════════════ -->
+<div class="page" id="page-contacto" role="region" aria-labelledby="page-title-contacto">
+  <div class="page-hero"><div class="page-hero-bg">Cita</div><div class="page-hero-inner"><span class="eyebrow eyebrow-w">Estamos aquí para ti</span><h1 class="h1-serif" style="color:var(--white)">Contacto &amp;<br><em style="font-style:italic;color:rgba(255,255,255,.55)">pedir cita</em></h1><p class="body-text body-text-w" style="margin-top:14px">Primera consulta visual completamente gratuita y sin compromiso.</p></div></div>
+  <section style="padding:0">
+    <div class="contact-split">
+      <div class="contact-left">
+        <span class="eyebrow">Encuéntranos</span>
+        <h2 class="h2-serif">Ven a <em>visitarnos</em></h2>
+        <div class="contact-items">
+          <div class="c-item"><div class="c-dot"></div><div><div class="c-label">Dirección</div><div class="c-value"><a href="https://maps.google.com/?q=C.+Trinidad+4+Talavera+de+la+Reina" target="_blank" rel="noopener">C. Trinidad, 4<br>45600 Talavera de la Reina, Toledo</a></div></div></div>
+          <div class="c-item"><div class="c-dot"></div><div><div class="c-label">Teléfono</div><div class="c-value"><a href="tel:+34925812543">925 81 25 43</a></div></div></div>
+          <div class="c-item"><div class="c-dot"></div><div><div class="c-label">Móvil / WhatsApp</div><div class="c-value"><a href="https://api.whatsapp.com/send?phone=34628454731" target="_blank" rel="noopener">628 45 47 31</a></div></div></div>
+          <div class="c-item"><div class="c-dot"></div><div><div class="c-label">Email</div><div class="c-value"><a href="/cdn-cgi/l/email-protection#0861666e674867787c616b697c7a6166616c696c7c6964697e6d7a69266b6765"><span class="__cf_email__" data-cfemail="731a1d151c331c03071a101207011a1d1a17121707121f12051601125d101c1e">[email&#160;protected]</span></a></div></div></div>
+        </div>
+        <div class="hours-block">
+          <div class="hours-title">Horario de apertura</div>
+          <div class="hours-row"><span class="h-day">Lunes – Viernes (mañana)</span><span class="h-time">9:30 – 13:30</span></div>
+          <div class="hours-row"><span class="h-day">Lunes – Viernes (tarde)</span><span class="h-time">16:30 – 20:00</span></div>
+          <div class="hours-row"><span class="h-day">Sábados</span><span class="h-time">10:00 – 14:00</span></div>
+          <div class="hours-row"><span class="h-day">Domingos</span><span class="h-closed">Cerrado</span></div>
+        </div>
+        <div style="margin-top:32px;display:flex;gap:12px;flex-wrap:wrap">
+          <a href="tel:+34925812543" class="btn btn-black">Llamar ahora</a>
+          <a href="https://api.whatsapp.com/send?phone=34628454731" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="contact-map">
+          <div class="map-big-text">Trinidad</div>
+          <div class="map-content">
+            <div class="map-addr">C. Trinidad, 4</div>
+            <div class="map-city">Talavera de la Reina · Toledo · 45600</div>
+            <a href="https://maps.google.com/?q=C.+Trinidad+4+Talavera+de+la+Reina" target="_blank" rel="noopener" class="map-link-btn">Ver en Google Maps →</a>
+          </div>
+        </div>
+        <div style="background:var(--off);padding:32px 40px;border-top:1px solid var(--border)">
+          <div style="font-family:'Playfair Display',serif;font-size:20px;color:var(--black);margin-bottom:12px">¿Primera visita?</div>
+          <p style="font-size:13px;color:var(--text-light);line-height:1.8;margin-bottom:16px">No necesitas preparar nada especial. Si usas gafas o lentillas, tráelas — nos ayuda a entender mejor tu punto de partida.</p>
+          <div style="background:var(--white);padding:14px 16px;font-size:13px;color:var(--text-light);line-height:1.7;border-left:2px solid var(--black)">
+            <strong style="color:var(--black)">Tiempo estimado:</strong> 30–45 minutos para un examen visual completo.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo-txt" style="font-family:'Cantata One',serif;letter-spacing:.08em;font-size:16px;font-weight:400;color:rgba(255,255,255,.85)">ÓPTICA TRINIDAD</div>
+      <div class="footer-logo-sub">Talavera de la Reina</div>
+      <p class="footer-about">Tu óptica de confianza en el corazón de Talavera de la Reina. Cuidamos tu salud visual con profesionalidad, tecnología y el trato cercano que mereces desde hace más de 20 años.</p>
+    </div>
+    <div>
+      <p class="footer-col-title">Productos</p>
+      <ul class="footer-links">
+        <li><a onclick="nav('gafas-ver')">Gafas de ver</a></li>
+        <li><a onclick="nav('gafas-sol')">Gafas de sol</a></li>
+        <li><a onclick="nav('lentillas')">Lentillas</a></li>
+        <li><a onclick="nav('novedades')">Novedades</a></li>
+        <li><a onclick="nav('nosotros')">Nuestras marcas</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Servicios</p>
+      <ul class="footer-links">
+        <li><a onclick="nav('servicios')">Examen visual</a></li>
+        <li><a onclick="nav('servicios')">Lentes de contacto</a></li>
+        <li><a onclick="nav('servicios')">Orto-K</a></li>
+        <li><a onclick="nav('servicios')">Tonometría</a></li>
+        <li><a onclick="nav('salud')">Salud visual</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Contacto</p>
+      <ul class="footer-links">
+        <li><a href="tel:+34925812543">925 81 25 43</a></li>
+        <li><a href="tel:+34628454731">628 45 47 31</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#9af3f4fcf5daf5eaeef3f9fbeee8f3f4f3fefbfeeefbf6fbecffe8fbb4f9f5f7"><span class="__cf_email__" data-cfemail="30595e565f705f40445953514442595e5954515444515c51465542511e535f5d">[email&#160;protected]</span></a></li>
+        <li><a href="https://maps.google.com/?q=C.+Trinidad+4+Talavera" target="_blank" rel="noopener">C. Trinidad, 4 · Talavera</a></li>
+      </ul>
+      <button class="btn btn-white btn-sm" style="margin-top:20px;font-size:10px" onclick="nav('contacto')">Pedir cita</button>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Óptica Trinidad · Talavera de la Reina · Todos los derechos reservados</span>
+    <span>Diseño web profesional</span>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+function nav(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  const el=document.getElementById('page-'+id);
+  if(el){el.classList.add('active');window.scrollTo({top:0,behavior:'smooth'});setTimeout(initReveal,80)}
+}
+window.addEventListener('scroll',()=>{document.getElementById('hdr').classList.toggle('scrolled',window.scrollY>40)});
+function openMob(){document.getElementById('mobMenu').classList.add('open');document.body.style.overflow='hidden'}
+function closeMob(){document.getElementById('mobMenu').classList.remove('open');document.body.style.overflow=''}
+// show hamburger on mobile
+function checkW(){document.getElementById('mobBtn').style.display=window.innerWidth<=860?'flex':'no
